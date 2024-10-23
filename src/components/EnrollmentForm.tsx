@@ -29,7 +29,7 @@ export default function EnrollmentForm({ isOpen, onClose }: EnrollmentFormProps)
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'YOUR-ACCESS-KEY', // Replace with your Web3Forms access key
+          access_key: 'f5cf6a51-5080-46c9-abdf-1097b31c9c48', // Replace with your Web3Forms access key
           subject: 'New CodeSpiral Enrollment',
           to: 'admin@codespiral.tech',
           from_name: formData.name,
